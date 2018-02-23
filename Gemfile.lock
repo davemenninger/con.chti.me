@@ -6,14 +6,14 @@ GEM
     faye-websocket (0.10.7)
       eventmachine (>= 0.12.0)
       websocket-driver (>= 0.5.1)
-    mustermann (1.0.1)
-    rack (2.0.3)
-    rack-protection (2.0.0)
+    mustermann (1.0.2)
+    rack (2.0.4)
+    rack-protection (2.0.1)
       rack
-    sinatra (2.0.0)
+    sinatra (2.0.1)
       mustermann (~> 1.0)
       rack (~> 2.0)
-      rack-protection (= 2.0.0)
+      rack-protection (= 2.0.1)
       tilt (~> 2.0)
     thin (1.7.2)
       daemons (~> 1.0, >= 1.0.9)
@@ -29,8 +29,8 @@ PLATFORMS
 
 DEPENDENCIES
   faye-websocket
-  sinatra
+  sinatra (>= 2.0.1)
   thin
 
 BUNDLED WITH
-   1.15.4
+   1.16.1
