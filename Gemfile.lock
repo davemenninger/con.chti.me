@@ -8,12 +8,12 @@ GEM
       websocket-driver (>= 0.5.1)
     mustermann (1.0.2)
     rack (2.0.5)
-    rack-protection (2.0.1)
+    rack-protection (2.0.3)
       rack
-    sinatra (2.0.1)
+    sinatra (2.0.3)
       mustermann (~> 1.0)
       rack (~> 2.0)
-      rack-protection (= 2.0.1)
+      rack-protection (= 2.0.3)
       tilt (~> 2.0)
     thin (1.7.2)
       daemons (~> 1.0, >= 1.0.9)
@@ -29,7 +29,7 @@ PLATFORMS
 
 DEPENDENCIES
   faye-websocket
-  sinatra (>= 2.0.1)
+  sinatra (>= 2.0.2)
   thin
 
 BUNDLED WITH
